@@ -1,0 +1,23 @@
+
+title: My Resume
+url: 'http://andredidier.github.io'
+baseurl: '/andredidier' #change it according to your repository name
+
+
+
+# Profile information
+yourname: André Didier  ## put your name
+title: 'FULL STACK DEVELOPER &amp; CONSULTANT &amp; LECTURER'  ## your title
+location: Recife, PE
+
+
+## Social Profiles
+facebook: http://www.facebook.com/alrdidier  ## your facebook account url
+twitter: http://www.twitter.com/andredidier  ## your twitter account url
+linkedin: https://www.linkedin.com/in/andredidier/  ## your linkedin account url
+#dribbble: http://www.dribble.com  ## you dribbble account url
+#foursquare: http://www.foursquare.com  ## your foursquare account url
+
+
+
+# Update all the sections by editing the files inside _includes folder.
