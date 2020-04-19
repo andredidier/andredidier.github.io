@@ -1,6 +1,6 @@
 import {anything, instance, mock, verify} from "ts-mockito";
 import {Database} from "../src/Database";
-import {DatabaseExperience, RecordExperience} from "../src/Experience";
+import {DatabaseExperience, RecordExperience} from "../src/curriculum/Experience";
 
 describe('DatabaseExperience', () => {
     describe('#store(MemoryExperience)', () => {

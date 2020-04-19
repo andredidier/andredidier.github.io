@@ -1,6 +1,6 @@
 import {anything, instance, mock, verify} from "ts-mockito";
 import {Database} from "../src/Database";
-import {DatabaseCurriculum, RecordCurriculum} from "../src/Curriculum";
+import {DatabaseCurriculum, RecordCurriculum} from "../src/curriculum/Curriculum";
 
 describe('DatabaseCurriculum', () => {
     describe('#store(MemoryCurriculum)', () => {

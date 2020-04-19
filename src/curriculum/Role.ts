@@ -1,5 +1,5 @@
-import {Database} from "./Database";
-import {Range} from "./Range";
+import {Database} from "../Database";
+import {Range} from "../Range";
 
 export interface Role {
 }

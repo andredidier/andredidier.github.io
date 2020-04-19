@@ -1,6 +1,6 @@
-import {Media} from "./Media";
-import {Database} from "./Database";
-import {Range} from "./Range";
+import {Media} from "../Media";
+import {Database} from "../Database";
+import {Range} from "../Range";
 
 
 export interface Activity {

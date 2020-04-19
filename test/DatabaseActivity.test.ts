@@ -1,6 +1,6 @@
 import {anything, instance, mock, verify, when} from "ts-mockito";
 import {Database} from "../src/Database";
-import {DatabaseActivity, RecordActivity} from "../src/Activity";
+import {DatabaseActivity, RecordActivity} from "../src/curriculum/Activity";
 
 describe('DatabaseActivity', () => {
     describe('#store(MemoryActivity)', () => {

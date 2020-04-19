@@ -1,6 +1,6 @@
 import {Database} from "../src/Database";
 import {anything, instance, mock, verify} from "ts-mockito";
-import {DatabaseRole, RecordRole} from "../src/Role";
+import {DatabaseRole, RecordRole} from "../src/curriculum/Role";
 
 describe("DatabaseRole", () => {
     describe("#store(RecordRole)", () => {

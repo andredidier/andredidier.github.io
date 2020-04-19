@@ -1,5 +1,5 @@
 import {expect} from "chai";
-import {RecordExperience} from "../src/Experience";
+import {RecordExperience} from "../src/curriculum/Experience";
 
 describe('RecordExperience', () => {
     describe('#new', () => {

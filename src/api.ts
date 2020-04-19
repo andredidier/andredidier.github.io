@@ -1,10 +1,10 @@
 import {LocalDatabase} from "./LocalDatabase";
 
-import {DatabaseCurriculum, RecordCurriculum} from "./Curriculum";
-import {DatabaseActivity, RecordActivity} from "./Activity";
+import {DatabaseCurriculum, RecordCurriculum} from "./curriculum/Curriculum";
+import {DatabaseActivity, RecordActivity} from "./curriculum/Activity";
 import {OpenEndRange} from "./Range";
-import {DatabaseRole, RecordRole} from "./Role";
-import {DatabaseExperience, RecordExperience} from "./Experience";
+import {DatabaseRole, RecordRole} from "./curriculum/Role";
+import {DatabaseExperience, RecordExperience} from "./curriculum/Experience";
 
 
 function init() {

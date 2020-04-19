@@ -2,7 +2,7 @@ import {anything, instance, mock, when} from "ts-mockito";
 import {Range} from "../src/Range";
 import {Media} from "../src/Media";
 import {expect} from "chai";
-import {RecordActivity} from "../src/Activity";
+import {RecordActivity} from "../src/curriculum/Activity";
 
 describe('RecordActivity', () => {
     describe('#print(Media)', () => {
