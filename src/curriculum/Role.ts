@@ -1,4 +1,4 @@
-import {Database} from "../Database";
+import {Database} from "../database/Database";
 import {Range} from "../Range";
 
 export interface Role {

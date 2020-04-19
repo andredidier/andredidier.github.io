@@ -1,5 +1,5 @@
 import {Media} from "../Media";
-import {Database} from "../Database";
+import {Database} from "../database/Database";
 import {Range} from "../Range";
 
 

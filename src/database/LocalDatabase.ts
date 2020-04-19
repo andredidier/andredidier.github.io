@@ -1,4 +1,4 @@
-import {Database} from "./Database";
+import {Database} from "./";
 
 export class LocalDatabase implements Database {
     storage: Storage;

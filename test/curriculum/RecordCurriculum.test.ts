@@ -1,7 +1,7 @@
 import {instance, mock} from "ts-mockito";
-import {Range} from "../src/Range";
+import {Range} from "../../src/Range";
 import {expect} from "chai";
-import {RecordCurriculum} from "../src/curriculum/Curriculum";
+import {RecordCurriculum} from "../../src/curriculum/Curriculum";
 
 describe('RecordCurriculum', () => {
     describe('#new', () => {

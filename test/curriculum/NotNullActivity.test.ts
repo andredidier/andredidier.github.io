@@ -1,7 +1,7 @@
 import {anything, instance, mock, verify} from "ts-mockito";
-import {Media} from "../src/Media";
+import {Media} from "../../src/Media";
 import {expect} from "chai";
-import {Activity, NotNullActivity} from "../src/curriculum/Activity";
+import {Activity, NotNullActivity} from "../../src/curriculum/Activity";
 
 describe('NotNullActivity', () => {
     describe('#print(Media)', () => {

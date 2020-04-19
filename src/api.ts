@@ -1,4 +1,4 @@
-import {LocalDatabase} from "./LocalDatabase";
+import {LocalDatabase} from "./database/LocalDatabase";
 
 import {DatabaseCurriculum, RecordCurriculum} from "./curriculum/Curriculum";
 import {DatabaseActivity, RecordActivity} from "./curriculum/Activity";
