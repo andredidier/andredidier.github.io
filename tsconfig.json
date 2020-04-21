@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "ES5",
+    "module": "UMD",
+    "outDir": "./built"
+  },
+  "include": [
+    "./src/api","./src/**/*.ts"]
+}

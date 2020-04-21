@@ -1,6 +1,35 @@
-import {Database} from "../database/Database";
+import {Database, HTMLElementDatabase} from "../database/Database";
 
 export interface Curriculum {
+}
+
+export class HTMLElementCurriculum extends HTMLElement implements Curriculum {
+    private curriculumId: string;
+    constructor(curriculumId?: string) {
+        super();
+        console.log("Putz");
+        this.curriculumId = curriculumId;
+        this._updateRendering();
+    }
+    static get observedAttributes() {
+        return ["curriculumId"];
+    }
+
+    connectedCallback() {
+        console.log("Putz");
+        this.innerHTML = "Bla";
+        this.appendChild(document.createTextNode("Oie"));
+    }
+    // attributeChangedCallback(name: string, oldValue: object, newValue: object) {
+    //     this[name] = newValue;
+    //     this._updateRendering();
+    // }
+
+    private _updateRendering() {
+        // update contents after property change
+        this.textContent = "Bla";
+        this.appendChild(document.createTextNode("Oie"));
+    }
 }
 
 export class DatabaseCurriculum implements Curriculum {

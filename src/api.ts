@@ -1,13 +1,14 @@
-import {LocalDatabase} from "./database/LocalDatabase";
+import {HTMLElementDatabase} from "./database/Database";
+import {HTMLElementCurriculum} from "./curriculum/Curriculum";
+console.log("aiaiai out");
 
-import {DatabaseCurriculum, RecordCurriculum} from "./curriculum/Curriculum";
-import {DatabaseActivity, RecordActivity} from "./curriculum/Activity";
-import {OpenEndRange} from "./Range";
-import {DatabaseRole, RecordRole} from "./curriculum/Role";
-import {DatabaseExperience, RecordExperience} from "./curriculum/Experience";
+export function startMyApp() {
+    console.log("aiaiai");
 
+    customElements.define("curriculum", HTMLElementCurriculum);
+    customElements.define("database", HTMLElementDatabase);
 
-function init() {
+    /*
     let db = new LocalDatabase();
 
     function buildBenevity(db: LocalDatabase) {
@@ -42,4 +43,6 @@ function init() {
 
     let curriculum = new DatabaseCurriculum("alrd", db);
     curriculum.store(new RecordCurriculum(experiences.map(experience => experience.id), []));
+
+     */
 }

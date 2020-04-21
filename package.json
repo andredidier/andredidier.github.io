@@ -5,7 +5,8 @@
   },
   "scripts": {
     "test": "mocha -r ts-node/register --watch-extensions ts test/**/*.test.ts",
-    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test",
+    "browse": "ws -p 3000 --config-file local-config.js"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
@@ -17,5 +18,6 @@
     "ts-mockito": "^2.5.0",
     "ts-node": "^8.8.2",
     "typescript": "^3.8.3"
-  }
+  },
+  "dependencies": {}
 }
