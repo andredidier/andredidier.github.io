@@ -1,8 +1,15 @@
 <html>
 <head>
 <title>André Didier</title>
+    <script src="src/Database/Database.js"></script>
+    <script src="src/Curriculum/Curriculum.js"></script>
 </head>
-<body>
-Em construção.
+<body id="curriculum">
+
 </body>
+<script type="text/javascript">
+    let database = new LocalDatabase(window.localStorage);
+    let curriculum = new ElementCurriculum("curriculum", new DatabaseCurriculum('alrd', database));
+
+</script>
 </html>

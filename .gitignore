@@ -3,3 +3,5 @@ _site/
 .jekyll-metadata
 *.sublime-workspace
 .idea
+package-lock.json
+node_modules
